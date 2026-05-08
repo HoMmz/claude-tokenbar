@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tokenbar",
+  "description": "Token usage bar for Claude Code — shows context window usage after each response",
+  "owner": {
+    "name": "hommm2"
+  },
+  "plugins": [
+    {
+      "name": "tokenbar",
+      "description": "แสดง token usage bar ท้าย response — Minimal modern + color zones",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

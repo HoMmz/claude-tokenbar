@@ -1,0 +1,21 @@
+{
+  "name": "claude-tokenbar",
+  "version": "1.0.0",
+  "description": "Claude Code plugin — context window usage bar after every response",
+  "author": "hommm2",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-plugin",
+    "token",
+    "context-window",
+    "productivity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hommm2/claude-tokenbar.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

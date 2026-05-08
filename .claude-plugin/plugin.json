@@ -1,0 +1,20 @@
+{
+  "name": "tokenbar",
+  "description": "แสดง token usage bar ท้าย response — Minimal modern style with color zones (green/yellow/red)",
+  "author": {
+    "name": "hommm2"
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/tokenbar.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

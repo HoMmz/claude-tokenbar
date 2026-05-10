@@ -163,11 +163,11 @@ async function main() {
 
   const contextWindow = await resolveContextWindow(model);
 
+  // input context only — output_tokens do not count against context window
   const used =
     (usage.input_tokens || 0) +
     (usage.cache_read_input_tokens || 0) +
-    (usage.cache_creation_input_tokens || 0) +
-    (usage.output_tokens || 0);
+    (usage.cache_creation_input_tokens || 0);
 
   const bar = buildBar(used, contextWindow);
 
